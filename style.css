@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&family=Roboto+Slab&display=swap');
+*{  
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto Slab', serif;
+       
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 80vw;
+    background: #512B81;
+   
+}
+ .container {
+     max-width: 500px;
+     background-color: antiquewhite;
+     padding: 50px;
+     border-radius: 10px;
+    -webkit-box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.75);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background: #35155D;
+ }
+ .title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap:10px;
+    flex-wrap: wrap-reverse;
+}
+ .temp-icon{
+    font-size: 40px;
+ }
+ .celsius{
+    
+ }
+ input{
+    text-align: center;
+    border-radius: 5px 0px 0px 5px ;
+    position: relative;
+    color: white;
+    background:#35155D ;
+    outline: none;
+    border: 1px solid #512B81;
+    padding: 10px;
+    width: 300px;
+    font-size: 20px;
+ }
+ input::-webkit-outer-spin-button,
+ input::-webkit-inner-spin-button {
+     -webkit-appearance: none;
+ }
+ input {
+     -moz-appearance: textfield;
+ }
+.icon{
+    border-radius: 0px 5px 5px 0px;
+    padding: 10px;
+    border: none;
+    width: 40px;
+    height: 48px;
+    font-size: 20px;
+    align-items: center;
+    position: absolute;
+    background:#512B81 ;
+}
+button{
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 15px;
+    background:#512B81 ;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+button:hover{
+   
+    border: 1px solid #512B81;
+    background:#35155D ;
+    -webkit-box-shadow: 0px 2px 53px -21px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 2px 53px -21px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 2px 53px -21px rgba(0, 0, 0, 0.75);
+
+}
